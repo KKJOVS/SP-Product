@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candy Products Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header id="header">
+    <img id="header-img" src="owner.jpg" alt="Candy Logo">
+    <nav id="nav-bar">
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="video-section">
+      <iframe id="video" src="https://www.youtube.com/watch?v=BojIzgtUrPc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+
+    <section id="features">
+      <h2 class="centered-title">Product</h2>
+      <p class="centered-description">Our candy products come in a variety of delicious flavors to satisfy every sweet tooth!</p>
+      <div class="candy-flavor rounded-square">
+        <h3>Orange Candy</h3>
+        <img src="orange.jpg" alt="Orange Candy">
+        <p>Experience the zesty and refreshing taste of our orange-flavored candies.</p>
+      </div>
+      <div class="candy-flavor rounded-square">
+        <h3>Apple Candy</h3>
+        <img src="apple.jpg" alt="Apple Candy">
+        <p>Enjoy the crisp and sweet flavor of our apple candies.</p>
+      </div>
+      <div class="candy-flavor rounded-square">
+        <h3>Grape Candy</h3>
+        <img src="grape.jpg" alt="Grape Candy">
+        <p>Taste the rich and juicy flavor of our grape candies.</p>
+      </div>
+      <div class="candy-flavor rounded-square">
+        <h3>Banana Candy</h3>
+        <img src="banana.jpg" alt="Banana Candy">
+        <p>Delight in the sweet and creamy taste of our banana-flavored candies.</p>
+      </div>
+    </section>
+
+    <section id="pricing" class="rounded-rectangle">
+      <h2>Pricing</h2>
+      <p>Our candy products are available at great prices:</p>
+      <ul>
+        <li>Single Flavor Pack: P 299.00</li>
+        <li>Mix & Match (Any 4 flavors): P 1,029.00</li>
+        <li>Bulk Order (10 packs): P 2,575.00</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="rounded-rectangle">
+      <h2>Contact Us</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
